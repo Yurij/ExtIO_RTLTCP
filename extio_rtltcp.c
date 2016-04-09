@@ -300,7 +300,7 @@ void LIBAPI ShowGUI(void)
 
 int LIBAPI GetAttenuators(int atten_idx, float *attenuation)
 {
-    if (atten_idx < 30) {
+    if (atten_idx < 50) {
         *attenuation = atten_idx;
         return 0;
     }
